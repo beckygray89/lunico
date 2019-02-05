@@ -1,0 +1,358 @@
+/* HEADER */
+
+h1,
+h2,
+h3 {
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.row {
+  clear: both;
+  width: 100%;
+  display: inline-block;
+}
+
+.container {
+  padding: 0 2rem;
+  margin: 0px auto;
+  max-width: 1280px;
+}
+.container-fluid {
+  width: 100%;
+}
+
+/* NAV */
+header nav#main {
+  padding: 10px;
+}
+
+nav#main .social {
+  padding: 14px;
+  margin: -30px; 
+  margin-block-end: 28px;
+  float: right;
+}
+
+header nav#main a {
+  color: #cc1027;
+  text-decoration: none;
+}
+
+.header {
+  height: 30px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 50;
+}
+
+
+nav#main {
+  height: 40px;
+}
+
+nav#main li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+nav#main ul {
+  text-align: center;
+  margin: -61px;
+  padding: inherit;
+}
+
+/* about */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  padding-top: 75px;
+
+}
+
+.full-width {
+  width: 100%;
+}
+
+p {
+  display: block;
+  font-size: 14pt;
+  line-height: 1.8;
+}
+
+
+#about {
+  color: #fff;
+  padding: 3% 0 3% 0;
+  height: 660px;
+  background-image: url("scissors-and-comb-picture.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: inset 0 0 0 999px #000000d0;
+}
+ 
+.container {
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin: 42px;
+  height: 150px;
+  width: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1225px) {
+  .column3 {
+    width: 48%;
+    border: solid 1px purple;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .column3 {
+    width: 48%;
+    border: solid 1px blue;
+  }
+}
+@media screen and (max-width: 768px) {
+  .column3 {
+    width: 100%;
+    border: solid 1px yellowgreen;
+  }
+}
+
+/* gallery */
+#gallery {
+  background: #fff;
+  margin-top: 2px;
+  background-position: 10% bottom;
+}
+
+#gallery img {
+  max-height: 550px; 
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1.2;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1.2;
+  }
+}
+
+section {
+  padding: 1em;
+}
+
+/* price */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding-top: 75px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 15px;
+  word-spacing: 10px;
+}
+
+.column3 {
+  min-height: 300px;
+  float: left;
+  width: 50%;
+}
+
+.column3 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #9999;
+  border: solid 1px #9999;
+  margin: 10px;
+}
+
+.column3 ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 991px) {
+  .column3 {
+    width: 48%;
+    border: solid 1px blue;
+  }
+}
+@media screen and (max-width: 768px) {
+  .column3 {
+    width: 100%;
+    border: solid 1px yellowgreen;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+#price {
+  background: #333333;
+  color: #fff;
+  padding: 3% 0 3% 0;
+  margin-top: 0px !important;
+  background-position: 30% bottom;
+}
+
+#price h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+}
+
+#price .column div {
+  padding: 10px;
+  width: 384px;
+  float: left;
+}
+
+/* testimonials */
+#clients {
+  background: #ebebeb;
+  color: #b82f36;
+  position: relative;
+}
+
+/* contact form */
+#contact {
+  background: #020305;
+  margin-top: -32px !important;
+  margin-bottom: 1px !important;
+  color: #fff;
+  text-align: center;
+  height: 529px;
+}
+
+#contact h4 {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#contact a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#contact .ctasubmit {
+  color: #fff;
+  font-size: 20px;
+  background: #b82f36;
+}
+
+form label {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  margin: 3px;
+}
+
+form textarea {
+  height: 50px;
+}
+
+form button {
+  background: #b82f36;
+  padding: 10px 30px;
+  margin: 5px; 
+  font-size: 18px;
+  color: white;
+  border: 0;
+  width: 80%;
+}
+
+.form-control {
+  margin: 4px;
+  padding: 2px 6px;
+  width: 80%;
+}
+
+/* footer */
+footer {
+  background: #fff;
+  color: #b82f36;
+  font-size: 16px;
+}
+
+footer ul {
+  text-align: center;
+  list-style: none;
+  margin: 10;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 5px 0px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+footer a {
+  color: #b82f36;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline !important;
+  color: #020305 !important;
+  background: none !important;
+}
+
+
