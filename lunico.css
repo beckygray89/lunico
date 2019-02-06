@@ -122,24 +122,17 @@ p {
   clear: both;
 }
 
-@media screen and (max-width: 1225px) {
-  .column3 {
-    width: 48%;
-    border: solid 1px purple;
+@media screen and (max-width: 1233px) {
+  .column {
+    width: 100%;
+    margin: 1px;
+    margin-top: -10px;
   }
 }
 
-@media screen and (max-width: 991px) {
-  .column3 {
-    width: 48%;
-    border: solid 1px blue;
-  }
-}
 @media screen and (max-width: 768px) {
-  .column3 {
-    width: 100%;
-    border: solid 1px yellowgreen;
-  }
+  .column {
+    width: 100%;  }
 }
 
 /* gallery */
