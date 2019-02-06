@@ -38,7 +38,7 @@ header nav#main {
 
 nav#main .social {
   padding: 14px;
-  margin: -30px; 
+  margin: -30px;
   margin-block-end: 28px;
   float: right;
 }
@@ -55,7 +55,6 @@ header nav#main a {
   width: 100%;
   z-index: 50;
 }
-
 
 nav#main {
   height: 40px;
@@ -77,7 +76,6 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 12px;
   padding-top: 75px;
-
 }
 
 .full-width {
@@ -90,7 +88,6 @@ p {
   line-height: 1.8;
 }
 
-
 #about {
   color: #fff;
   padding: 3% 0 3% 0;
@@ -101,7 +98,7 @@ p {
   background-position: left;
   box-shadow: inset 0 0 0 999px #000000d0;
 }
- 
+
 .container {
   box-sizing: border-box;
   justify-content: center;
@@ -132,7 +129,8 @@ p {
 
 @media screen and (max-width: 768px) {
   .column {
-    width: 100%;  }
+    width: 100%;
+  }
 }
 
 /* gallery */
@@ -143,8 +141,8 @@ p {
 }
 
 #gallery img {
-  max-height: 550px; 
-} 
+  max-height: 550px;
+}
 
 * {
   box-sizing: border-box;
@@ -221,13 +219,11 @@ h1 {
 @media screen and (max-width: 991px) {
   .column3 {
     width: 48%;
-    border: solid 1px blue;
   }
 }
 @media screen and (max-width: 768px) {
   .column3 {
     width: 100%;
-    border: solid 1px yellowgreen;
   }
 }
 
@@ -301,7 +297,7 @@ form textarea {
 form button {
   background: #b82f36;
   padding: 10px 30px;
-  margin: 5px; 
+  margin: 5px;
   font-size: 18px;
   color: white;
   border: 0;
@@ -312,6 +308,25 @@ form button {
   margin: 4px;
   padding: 2px 6px;
   width: 80%;
+}
+
+.column1 {
+  min-height: 300px;
+  float: left;
+  width: 50%;
+}
+
+.column1 h4 {
+  text-transform: capitalise;
+  text-align: center;
+  margin: 24px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .column1 {
+    width: 100%;
+  }
 }
 
 /* footer */
@@ -347,5 +362,3 @@ footer a:hover {
   color: #020305 !important;
   background: none !important;
 }
-
-
